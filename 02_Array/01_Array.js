@@ -26,6 +26,10 @@ console.log(typeof(newArr));
 
 console.log("A" ,myArr);
 
-const myn1 = myArr.slice(1,3)
+const myn1 = myArr.slice(1,3)  // returns the same array as before
 console.log(myn1);
 console.log("B" , myArr);
+
+const myn2 = myArr.splice(1,3)  // once we do splice , it removes the indexs we give and returns rest of the array
+console.log(myn2);
+console.log("C" , myArr);
